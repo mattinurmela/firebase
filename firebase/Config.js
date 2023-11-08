@@ -3,7 +3,6 @@ import { getFirestore, collection, addDoc, query, onSnapshot, orderBy, serverTim
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBbBBvLx9ogIe2BByPhKXiQAPf6MCJxSxs",
     authDomain: "chat-45554.firebaseapp.com",
     projectId: "chat-45554",
     storageBucket: "chat-45554.appspot.com",
